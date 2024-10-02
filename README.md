@@ -19,3 +19,6 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+
+Using our pivot from the first element chosen on each side, we have a 50% chance of choosing a good pivot. With median of three, 
