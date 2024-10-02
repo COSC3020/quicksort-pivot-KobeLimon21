@@ -22,3 +22,13 @@ might help with the notation for mathematical expressions.
 
 
 Using our pivot from the first element chosen on each side, we have a 50% chance of choosing a good pivot. With median of three, 
+
+
+
+
+Sources: 
+https://graphics.stanford.edu/courses/cs161-18-winter/Recitations/section3win2018_withsols.pdf  
+
+TA Ali - helped break down how median of 3 worked and some processes above ^
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
