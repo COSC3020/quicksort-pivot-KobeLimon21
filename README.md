@@ -51,14 +51,20 @@ LLB = (1/4^3) = 1/64
 Now taking away our good pivot possibilities,we can add them up together by considering all their possible permutations and multiplying the number above from their possible permutations. 
 
 GGG = 8/64 (8/64 * 1) - this has one possible permutation only being GGG 
-LGG = 12/64 (4/64 * 3) - this has three possible permutations being LGG,GLL and GLG
-BBG = 12/64 (4/64 * 3) -  this has three possible permuations being BGB,GBB and BBG
-LGB = 12/64 (4/64 * 3) - this has three possible permutaions being LGB,BGL and GBL
 
-When we add the four together, we get 
+LGG = 12/64 (4/64 * 3) - this has three possible permutations being LGG,GLL and GLG
+
+BBG = 12/64 (4/64 * 3 ) -  this has three possible permuations being BGB,GBB and BBG
+
+LGB = 12/64 (2/32 * 6) - this six possible permutaions being LGB,BGL,GBL,GLB,BLG and LBG 
+
+When we add the four together,we get 
+
 8/64 + 12/64 + 12/64 + 12/64 = 44/64
 
-44/64 = 
+44/64 = 0.6875
+
+This gives us a 68.75% chance to get a good pivot with median of three used which is better compared to the method we used in the slides that gives us a 50% chance. 
 
 
 
