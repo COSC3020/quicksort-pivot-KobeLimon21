@@ -21,7 +21,39 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 
-Using our pivot from the first element chosen on each side, we have a 50% chance of choosing a good pivot. With median of three, 
+Using our pivot from the first element chosen on the leftmost side, we have a 50% chance of choosing a good pivot. From the block shown on slide 34 from the powerpoint, we can we divide it into three blocks, the left most being 1/4, the middle being 1/2 and the right most being 1/4 to get a probability of 1 together. Giving each of these a variable for each respective block, where L represents lower than pivot (left),G being good pivot (middle) and B being bigger than pivot (right). 
+
+L = 1/4
+G = 1/2
+B = 1/4
+
+
+LLL = 1/4^3 = 1/64
+GGG = 1/2^3 = 1/8
+BBB = 1/4^3 = 1/64 
+LGB = 1/4 * 1/2 * 1/4 = 1/32
+LLB = 1/4^3 = 1/64 
+LLG = 1/4 * 1/4 * 1/2 = 1/32
+GBB = 1/2 * 1/4 * 1/4 = 1/32
+LGG = 1/4 * 1/2 * 1/2 = 1/16 
+GGB = 1/2 * 1/2 * 1/4 = 1/16
+LLB = 1/4^3 = 1/64
+
+Now taking away our good pivot possibilities,we can add them up together by considering all their possible permutations and multiplying the number above from their possible permutations. 
+
+GGG = 8/64 (8/64 * 1) - this has one possible permutation only being GGG 
+LGG = 12/64 (4/64 * 3) - this has three possible permutations being LGG,GLL and GLG
+BBG = 12/64 (4/64 * 3) -  this has three possible permuations being BGB,GBB and BBG
+LGB = 12/64 (4/64 * 3) - this has three possible permutaions being LGB,BGL and GBL
+
+When we add the four together, we get 
+8/64 + 12/64 + 12/64 + 12/64 = 44/64
+
+44/64 = 
+
+
+
+
 
 
 
@@ -30,5 +62,9 @@ Sources:
 https://graphics.stanford.edu/courses/cs161-18-winter/Recitations/section3win2018_withsols.pdf  
 
 TA Ali - helped break down how median of 3 worked and some processes above ^
+
+
+https://github.com/COSC3020/quicksort-pivot-Dhruv8806 -  viewed the process on how to derive probabilities 
+
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
