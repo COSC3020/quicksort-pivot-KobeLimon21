@@ -29,14 +29,23 @@ B = 1/4
 
 
 LLL = 1/4^3 = 1/64
+
 GGG = 1/2^3 = 1/8
+
 BBB = 1/4^3 = 1/64 
+
 LGB = 1/4 * 1/2 * 1/4 = 1/32
+
 LLB = 1/4^3 = 1/64 
+
 LLG = 1/4 * 1/4 * 1/2 = 1/32
+
 GBB = 1/2 * 1/4 * 1/4 = 1/32
+
 LGG = 1/4 * 1/2 * 1/2 = 1/16 
+
 GGB = 1/2 * 1/2 * 1/4 = 1/16
+
 LLB = 1/4^3 = 1/64
 
 Now taking away our good pivot possibilities,we can add them up together by considering all their possible permutations and multiplying the number above from their possible permutations. 
