@@ -49,6 +49,8 @@ GLL - 3 permutations so  (1/32)^3 -> 12/64
 
 GBB - 3 permutations so (1/32) ^3 -> 12/64 
 
+12/64 + 12/64 + 1/64 + 1/64 = 26/24
+
 Adding these up we get 26/64 which is .406 or about 41%
 
 100 - 41 = 59
