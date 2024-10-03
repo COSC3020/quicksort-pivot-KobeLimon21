@@ -39,6 +39,11 @@ GLL - 1/2 * (1/4)^2
 
 GBB - 1/2 * (1/4)^2 
 
+LBB - (1/4)^3 
+
+BLL - (1/4)^3 
+
+
 Now we are able to add these up and subtract them from 1.
 
 BBB - one permutation so just 1/64  from  (1/4)^3
@@ -56,10 +61,11 @@ BLL - 3 permuations so (1/4)^3 = 3/64
 
 3/32 + 3/32 + 1/64 + 1/64 + 3/64 + 3/64 = 20/64
 
-20/64 = .6875
+20/64 = .3125
 
 1 - .3125 = 0.6875
 
+31.25% chance of choosing a bad pivot
 
 
 This ends up in a chance of 68.75% chance choosing a good pivot with the median of three pivots compared to the slide method which had a 50% success rate.
