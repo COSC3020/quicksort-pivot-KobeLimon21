@@ -62,10 +62,10 @@ BLL - 3 permuations so (1/4)^3 = 3/64
 
 
 
-This ends up in roughly a 59% chance of choosing a good pivot with the median of three pivots compared to the slide method which had a 50% success rate. ]
+This ends up in a chance of 68.75% chance choosing a good pivot with the median of three pivots compared to the slide method which had a 50% success rate.
 
 
-* my calculations were way off and I was missing combinations from second try. 
+* my calculations were way off and I was missing 2 combinations from second try. 
 
 
 
