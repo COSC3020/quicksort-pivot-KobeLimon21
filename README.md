@@ -42,8 +42,11 @@ GBB - 1/2 * (1/4)^2
 Now we are able to add these up and subtract them from 1.
 
 BBB - one permutation so just 1/64 
+
 LLL - one permutation so just 1/64 
+
 GLL - 3 permutations so  (1/32)^3 -> 12/64
+
 GBB - 3 permutations so (1/32) ^3 -> 12/64 
 
 Adding these up we get 26/64 which is .406 or about 41%
