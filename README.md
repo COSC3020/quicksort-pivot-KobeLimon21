@@ -29,7 +29,7 @@ B = 1/4
 
 We can consider our bad cases where our median pivot would not work. 
 
-We have multiple cases where this does not work:
+We have multiple cases where this is the case:
 
 BBB - (1/4)^3
 
