@@ -27,48 +27,30 @@ L = 1/4
 G = 1/2
 B = 1/4
 
+We can consider our bad cases where our median pivot would not work. 
 
-LLL = (1/4^3) = 1/64
+We have multiple cases where this does not work:
 
-GGG = (1/2^3) = 1/8
+BBB - (1/4)^3
 
-BBB = (1/4^3) = 1/64 
+LLL - (1/4)^3
 
-LGB = 1/4 * 1/2 * 1/4 = 1/32
+GLL - 1/2 * (1/4)^2 
 
-LLB = (1/4^3) = 1/64 
+GBB - 1/2 * (1/4)^2 
 
-LLG = 1/4 * 1/4 * 1/2 = 1/32
+Now we are able to add these up and subtract them from 1.
 
-GBB = 1/2 * 1/4 * 1/4 = 1/32
+BBB - one permutation so just 1/64 
+LLL - one permutation so just 1/64 
+GLL - 3 permutations so  (1/32)^3 -> 12/64
+GBB - 3 permutations so (1/32) ^3 -> 12/64 
 
-LGG = 1/4 * 1/2 * 1/2 = 1/16 
+Adding these up we get 26/64 which is .406 or about 41%
 
-GGB = 1/2 * 1/2 * 1/4 = 1/16
+100 - 41 = 59
 
-LLB = (1/4^3) = 1/64
-
-Now taking away our good pivot possibilities,we can add them up together by considering all their possible permutations and multiplying the number above from their possible permutations. 
-
-GGG = 8/64 (8/64 * 1) - this has one possible permutation only being GGG 
-
-LGG = 12/64 (4/64 * 3) - this has three possible permutations being LGG,GLL and GLG
-
-BBG = 12/64 (4/64 * 3 ) -  this has three possible permuations being BGB,GBB and BBG
-
-LGB = 12/64 (2/32 * 6) - this six possible permutaions being LGB,BGL,GBL,GLB,BLG and LBG 
-
-When we add the four together,we get 
-
-8/64 + 12/64 + 12/64 + 12/64 = 44/64
-
-44/64 = 0.6875
-
-This gives us a 68.75% chance to get a good pivot with median of three used which is better compared to the method we used in the slides that gives us a 50% chance. 
-
-
-
-
+This ends up in roughly a 59% chance of choosing a good pivot with the median of three pivots compared to the slide method which had a 50% success rate. 
 
 
 
