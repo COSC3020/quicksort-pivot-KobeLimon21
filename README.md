@@ -41,21 +41,31 @@ GBB - 1/2 * (1/4)^2
 
 Now we are able to add these up and subtract them from 1.
 
-BBB - one permutation so just 1/64 
+BBB - one permutation so just 1/64  from  (1/4)^3
 
-LLL - one permutation so just 1/64 
+LLL - one permutation so just 1/64 from (1/4)^3
 
-GLL - 3 permutations so  (1/32)^3 -> 12/64
+GLL - 3 permutations so  (1/2) * (1/4)^2 = 3/32
 
-GBB - 3 permutations so (1/32) ^3 -> 12/64 
+GBB - 3 permutations so  (1/2) * (1/4)^2 = 3/32 
 
-12/64 + 12/64 + 1/64 + 1/64 = 26/24
+LBB - 3 permutations so (1/4)^3 = 3/64
 
-Adding these up we get 26/64 which is .406 or about 41%
+BLL - 3 permuations so (1/4)^3 = 3/64 
 
-1 - 0.41 = 0.59
 
-This ends up in roughly a 59% chance of choosing a good pivot with the median of three pivots compared to the slide method which had a 50% success rate. 
+3/32 + 3/32 + 1/64 + 1/64 + 3/64 + 3/64 = 20/64
+
+20/64 = .6875
+
+1 - .3125 = 0.6875
+
+
+
+This ends up in roughly a 59% chance of choosing a good pivot with the median of three pivots compared to the slide method which had a 50% success rate. ]
+
+
+* my calculations were way off and I was missing combinations from second try. 
 
 
 
