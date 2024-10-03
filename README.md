@@ -53,7 +53,7 @@ GBB - 3 permutations so (1/32) ^3 -> 12/64
 
 Adding these up we get 26/64 which is .406 or about 41%
 
-100 - 41 = 59
+1 - 0.41 = 0.59
 
 This ends up in roughly a 59% chance of choosing a good pivot with the median of three pivots compared to the slide method which had a 50% success rate. 
 
